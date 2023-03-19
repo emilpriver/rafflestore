@@ -1,0 +1,53 @@
+ <div class="col raffles">
+                    <h1>Leaderbord
+                        <span>- Raffle </span>
+                    </h1>
+
+                    <div class="column">
+                        <div class="raffletitle">
+                            <span class="small">#</span>
+                            <div class="raffleinfo">
+                                <span>User</span>
+                                <span>Raffles Played</span>
+                                <span>Raffles Won</span>
+                            </div>
+
+                        </div>
+                        <div class="rafflesusers">
+                            <div v-for="(user,index) in raffleinfo" class="ruser">
+                                <div class="small">{{index + 1}}</div>
+                                <div class="raffleinfo">
+                                    <span>{{user.fullname}}</span>
+                                    <span>{{user.rafflesplayed}}</span>
+                                    <span>{{user.raffleswon}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1>Leaderbord
+                        <span>- Dice </span>
+                    </h1>
+                    <div class="column">
+                        <div class="raffletitle">
+                            <span class="small">#</span>
+                            <div class="raffleinfo">
+                                <span>User</span>
+                                <span>Dice Thrown</span>
+                                <span>Biggest Win</span>
+                            </div>
+
+                        </div>
+                        <div class="rafflesusers">
+                            <div v-for="(user,index) in dice" class="ruser">
+                                <div class="small">{{index + 1}}</div>
+                                <div class="raffleinfo">
+                                    <span>{{user.fullname}}</span>
+                                    <span>{{user.dicethrown}}</span>
+                                    <span>{{user.BiggestWin}}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>

@@ -1,0 +1,13 @@
+
+{
+    "dbhost": "mongodb://localhost:27017/rafflestore",
+    "smtpfrom": "no-reply@rafflestore.com",
+    "smtphost": "zoho",
+    "smtpuser": "support@rafflestore-beta.com",
+    "smtppw": "Makrill84!",
+    "paypalmade": "http://localhost:5000/PaymentMade",
+    "paymentcaneld": "https://localhost:5000/?error=PaymentCanceld",
+    "domain": "https://localhost:5000",
+    "constrution": "no",
+    "port": 5000
+}
